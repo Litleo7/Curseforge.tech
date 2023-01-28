@@ -29,3 +29,10 @@ body {
     float:right;
     text-align: left;
 }
+
+.banner {
+    background-color: yellow;
+    text-align: center;
+    padding: 0.5px;
+    width:100%;
+}
