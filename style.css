@@ -4,11 +4,28 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
 }
+
 .center {
-    /* center text in middle of page x and y */
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    text-align:center;
+    margin-top:25px;
+}
+
+
+.proof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+
+.image {
+    /* flex-basis: 40% */
+    float:left;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    float:right;
+    text-align: left;
 }
