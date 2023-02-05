@@ -1,9 +1,12 @@
 body {
-    background-color: #36d207;
+    background-color: #86d6c2;
     color: #000000;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     overflow-x: hidden;
+    background-image: url("images/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .center {
@@ -12,10 +15,14 @@ body {
 }
 
 .curseforge {
-    background-color: #07d29c;
+    background-color: #42E2B8;
     margin: 0;
     text-align: center;
     padding: 10;
+    background-image: url("images/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -23,9 +30,35 @@ body {
     display: flex;
     align-items: center;
     justify-content: left;
-    padding:10px;
-    width: fit-content;
+    padding:25px;
+    width: 350px;
     margin-left: 10px;
+    background-color: #ffffff;
+    height: 150px;
+}
+
+.gamesuit {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding:25px;
+    width: 350px;
+    margin-left: 10px;
+    padding-top: 40px;
+    background-color: #353737;
+    height: 150px;
+}
+
+.happys {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding:25px;
+    width: 350px;
+    margin-left: 10px;
+    padding-top: 40px;
+    background-color: #ffffff;
+    height: 150px;
 }
 
 .image {
